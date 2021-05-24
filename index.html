@@ -1,20 +1,14 @@
 ---
 layout: default
-title: Rubybytes
-subtitle: Ruby Disassembler
-sample_code: puts 'hi'
-runtime_version: Ruby Code v2.6.1
-description: Welcome to Rubybytes, a disassembler for your ruby code.  Inspired by a project by Matt Godbold called <a href="https://github.com/mattgodbolt/gcc-explorer">GCC Explorer</a> and aimed at Ruby from a suggestion by <a href="http://patshaughnessy.net/">Pat Shaughnessy</a>.
-api_url: https://getbytecodeapi.com/ruby30
 ---
 <div id="container">
-  <input type="hidden" id="apiurl" value="{{ page.api_url }}" />
+  <input type="hidden" id="apiurl" value="{{ site.data.page.api_url }}" />
   <div class='container'>
     <div class="page-header" id='banner'>
       <div class="row">
         <div class="col-lg-8 col-md-7 col-sm-6">
-          <h1>{{ page.title }}</h1>
-          <p class="lead">{{ page.subtitle }}</p>
+          <h1>{{ site.data.page.title }}</h1>
+          <p class="lead">{{ site.data.page.subtitle }}</p>
         </div>
       </div>
     </div>
@@ -22,9 +16,9 @@ api_url: https://getbytecodeapi.com/ruby30
 
   <div id="main">
     <div class="console-container">
-      {{ page.runtime_version }}
+      {{ site.data.page.runtime_version }}
       <div class="console">
-        <textarea id="inputTextArea">{{ page.sample_code }}</textarea>
+        <textarea id="inputTextArea">{{ site.data.page.sample_code }}</textarea>
       </div>
       <a id="disassemble_button" href="#" class="btn" onClick="codebytes.submitCode(); return false;">Disassemble</a>
     </div>

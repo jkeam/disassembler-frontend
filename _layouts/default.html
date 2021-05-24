@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>{{ page.title }}</title>
+      <title>{{ site.data.page.title }}</title>
       <link rel="shortcut icon" href="/assets/favicon.ico" />
       <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
       <link rel="stylesheet" type="text/css" href="/assets/css/bootswatch.min.css" />
@@ -25,7 +25,7 @@
               </div>
               <div class="modal-body">
                 <p>
-                {{ page.description | escape }}
+                {{ site.data.page.description | escape }}
                 </p>
                 <p>
                     Made with loving care by <a href="http://twitter.com/jonnyman9">Jonathan Keam.</a>
