@@ -1,7 +1,15 @@
 title: Rubybytes
 subtitle: Ruby Disassembler
 sample_code: puts 'hi'
-runtime_version: Ruby Code v2.6.1
 description: Welcome to Rubybytes, a disassembler for your ruby code.  Inspired by a project by Matt Godbold called <a href="https://github.com/mattgodbolt/gcc-explorer">GCC Explorer</a> and aimed at Ruby from a suggestion by <a href="http://patshaughnessy.net/">Pat Shaughnessy</a>.
-api_url: https://getbytecodeapi.com/ruby30
-github_url: https://github.com/jkeam/rubybytes
+api_urls:
+  ruby25: https://ruby25-api.diss.getbytecodeapi.com
+  ruby26: https://ruby26-api.diss.getbytecodeapi.com
+  ruby27: https://ruby27-api.diss.getbytecodeapi.com
+  ruby30: https://ruby30-api.diss.getbytecodeapi.com
+api_urls_display:
+  ruby25: Ruby 2.5
+  ruby26: Ruby 2.6
+  ruby27: Ruby 2.7
+  ruby30: Ruby 3.0
+github_url: ~

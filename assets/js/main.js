@@ -2,17 +2,18 @@ function Codebytes() {
   var inputMirror;
   var outputMirror;
 
-  this.submitCode= function() {
+  this.submitCode = function() {
     $('#disassemble_button').attr('disabled', 'disabled');
-    outputMirror.setValue("Running...");
+    outputMirror.setValue('Running...');
 
     var rawText = inputMirror.getValue();
 
     if (!rawText) return;
-    var jsonText = JSON.stringify({"code":rawText});
+    var jsonText = JSON.stringify({'code':rawText});
+    var selectedUrl = $('#apiurl option:selected').val();
     $.ajax({
       type: 'POST',
-      url: $('#apiurl').val(),
+      url: selectedUrl,
       dataType: 'text',
       contentType: 'application/json; charset=utf-8',
       data: jsonText,

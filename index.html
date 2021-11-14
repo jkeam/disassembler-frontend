@@ -2,7 +2,6 @@
 layout: default
 ---
 <div id="container">
-  <input type="hidden" id="apiurl" value="{{ site.data.page.api_url }}" />
   <div class='container'>
     <div class="page-header" id='banner'>
       <div class="row">
@@ -16,7 +15,15 @@ layout: default
 
   <div id="main">
     <div class="console-container">
-      {{ site.data.page.runtime_version }}
+      <div class="">
+        <select class="form-control" aria-label="Runtime select" id="apiurl">
+          {% for url in site.data.page.api_urls %}
+            {% assign key = url[0] %}
+            <option value="{{ url[1] }}">{{ site.data.page.api_urls_display[key] }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
       <div class="console">
         <textarea id="inputTextArea">{{ site.data.page.sample_code }}</textarea>
       </div>
