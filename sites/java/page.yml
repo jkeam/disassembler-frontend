@@ -1,0 +1,25 @@
+title: Javabytes
+subtitle: Java Disassembler
+sample_code: 'public class HelloWorld { \n
+\n
+  public static void main(String [] args){\n
+    System.out.println("Hello World");\n
+  }\n
+\n 
+}'
+description: Welcome to Javabytes, a disassembler for your Java code.  Inspired by a project by Matt Godbold called GCC Explorer.
+api_urls:
+  java6: https://java6-api.diss.getbytecodeapi.com
+  java7: https://java7-api.diss.getbytecodeapi.com
+  java8: https://java8-api.diss.getbytecodeapi.com
+  java9: https://java9-api.diss.getbytecodeapi.com
+  java11: https://java11-api.diss.getbytecodeapi.com
+  java15: https://java15-api.diss.getbytecodeapi.com
+api_urls_display:
+  java6: Java 6
+  java7: Java 7
+  java8: Java 8
+  java9: Java 9
+  java11: Java 11
+  java15: Java 15
+github_url: ~

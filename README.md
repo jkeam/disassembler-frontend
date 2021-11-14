@@ -13,3 +13,6 @@ bundle
 ```
 bundle exec jekyll serve
 ```
+
+## Sites
+`_site` is where Jekyll builds to.  `sites` are the files we use to build for various sites.
