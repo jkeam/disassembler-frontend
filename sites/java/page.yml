@@ -9,13 +9,11 @@ description: Welcome to Javabytes, a disassembler for your Java code.  Inspired 
 api_urls:
   java7: https://java7-api.diss.getbytecodeapi.com
   java8: https://java8-api.diss.getbytecodeapi.com
-  java9: https://java9-api.diss.getbytecodeapi.com
   java11: https://java11-api.diss.getbytecodeapi.com
   java15: https://java15-api.diss.getbytecodeapi.com
 api_urls_display:
   java7: Java 7
   java8: Java 8
-  java9: Java 9
   java11: Java 11
   java15: Java 15
 github_url: ~
