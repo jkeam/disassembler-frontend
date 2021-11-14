@@ -1,7 +1,7 @@
 title: Rubybytes
 subtitle: Ruby Disassembler
 sample_code: puts 'hi'
-description: Welcome to Rubybytes, a disassembler for your ruby code.  Inspired by a project by Matt Godbold called <a href="https://github.com/mattgodbolt/gcc-explorer">GCC Explorer</a> and aimed at Ruby from a suggestion by <a href="http://patshaughnessy.net/">Pat Shaughnessy</a>.
+description: Welcome to Rubybytes, a disassembler for your Ruby code.  Inspired by a project by Matt Godbold called GCC Explorer and aimed at Ruby from a suggestion by Pat Shaughnessy.
 api_urls:
   ruby25: https://ruby25-api.diss.getbytecodeapi.com
   ruby26: https://ruby26-api.diss.getbytecodeapi.com
