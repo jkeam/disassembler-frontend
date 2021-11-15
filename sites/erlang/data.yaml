@@ -1,0 +1,18 @@
+title: Erlangbytes
+subtitle: Erlang Disassembler
+sample_code: "-module(hello). \n
+-export([hello_world/0]). \n
+hello_world() -> io:fwrite(\"hello, world\"). \n
+"
+description: Welcome to Erlangbytes, a disassembler for your Erlang code.  Inspired by a project by Matt Godbold called GCC Explorer.
+api_urls:
+  erlang20: https://erlang20-api.diss.getbytecodeapi.com
+  erlang21: https://erlang21-api.diss.getbytecodeapi.com
+  erlang22: https://erlang22-api.diss.getbytecodeapi.com
+  erlang23: https://erlang23-api.diss.getbytecodeapi.com
+api_urls_display:
+  erlang20: Erlang 20
+  erlang21: Erlang 21
+  erlang22: Erlang 22
+  erlang23: Erlang 23
+github_url: ~

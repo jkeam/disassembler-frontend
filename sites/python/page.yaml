@@ -1,0 +1,15 @@
+title: Pythonbytes
+subtitle: Python Disassembler
+sample_code: print('hi')
+description: Welcome to Pythonbytes, a disassembler for your Python code.  Inspired by a project by Matt Godbold called GCC Explorer and aimed at Ruby from a suggestion by Pat Shaughnessy.
+api_urls:
+  python36: https://python36-api.diss.getbytecodeapi.com
+  python37: https://python37-api.diss.getbytecodeapi.com
+  python38: https://python38-api.diss.getbytecodeapi.com
+  python39: https://python39-api.diss.getbytecodeapi.com
+api_urls_display:
+  python36: Python 3.6
+  python37: Python 3.7
+  python38: Python 3.8
+  python39: Python 3.9
+github_url: ~
